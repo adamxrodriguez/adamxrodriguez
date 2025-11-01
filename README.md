@@ -13,7 +13,7 @@ I care about clean systems, fast feedback loops, and work that actually moves th
 
 ## Selected Work
 
-- **Metamorphosis (Kafka Observability)** — contributor  
+- **Metamorphosis (Kafka Observability)** — monitoring  
   Dashboards & tooling that reduce triage time and make message flow visible at a glance.  
   Org repo → https://github.com/oslabs-beta/Metamorphosis
 
@@ -21,11 +21,11 @@ I care about clean systems, fast feedback loops, and work that actually moves th
   Patterns I like: request validation with Zod, React Query, error boundaries, health checks.  
   Repo → https://github.com/adamxrodriguez/miracle-health
 
-- **Day Board (React)** — personal workflow tool  
+- **Dashboard (NextJS/React)** — Yatch workflow tool  
   Focus on accessibility, keyboard shortcuts, undo/redo, local persistence.  
   Repo → https://github.com/adamxrodriguez/day_board
 
-- **Sofle (keyboard firmware & tooling)** — customization, reproducible builds  
+- **Sofle RGB (keyboard firmware & tooling)** — customization, reproducible builds  
   Notes on low-level configs, ergonomics, and build repeatability.  
   Repo → https://github.com/adamxrodriguez/sofle-rgb-keyboard
 
