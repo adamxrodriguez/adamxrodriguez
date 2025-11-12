@@ -7,7 +7,7 @@ I care about clean systems, fast feedback loops, and work that actually moves th
 - **React/Next.js, Node, TypeScript, Python**; CI/CD with **GitHub Actions/Jenkins**
 - Comfort in the trenches: debugging flaky pipelines, profiling, cost/latency chops
 
-> Some days you don’t feel it. You show up anyway.
+> Some days you don’t feel it.  show up anyway.
 
 ---
 
@@ -43,9 +43,9 @@ I care about clean systems, fast feedback loops, and work that actually moves th
 
 ## Toolbox
 
-**Front-end:** React, Next.js, TypeScript, Zustand/Redux, SWR/React Query, Playwright, Vitest  
+**Front-end:** React, Next.js, TypeScript, Redux, SWR/React Query, Playwright, Vitest  
 **Back-end:** Node, Express/Next API Routes, Python, Kafka, Postgres/Redis  
-**DevOps:** GitHub Actions, Jenkins, Docker, Codecov, k6, OpenAPI  
+**DevOps:** GitHub Actions, Jenkins, Docker, OpenAPI  
 **Patterns:** rate limiting, idempotency, retries, circuit breakers, feature flags
 
 ---
@@ -60,8 +60,8 @@ I care about clean systems, fast feedback loops, and work that actually moves th
 
 ## Contact
 
-- **LinkedIn:** https://www.linkedin.com/in/adam-rodriguez  
+- **LinkedIn:** https://www.linkedin.com/in/adamrodriguez  
 - **Email:** adamxrodriguez@gmail.com
 - **Location:** Florida (EST)
 
-> Don’t wait to feel ready — start messy and figure it out on the way.
+> Don’t wait to feel ready — start.
