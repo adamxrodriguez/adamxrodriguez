@@ -21,9 +21,9 @@ I care about clean systems, fast feedback loops, and work that actually moves th
   Patterns I like: request validation with Zod, React Query, error boundaries, health checks.  
   Repo → https://github.com/adamxrodriguez/miracle-health
 
-- **Dashboard (NextJS/React)** — Yatch workflow tool  
+- **Yatch Hub (NextJS/React)** — Yatch dashboard workflow tool  
   Focus on accessibility, keyboard shortcuts, undo/redo, local persistence.  
-  Repo → https://github.com/adamxrodriguez/day_board
+  Repo → https://github.com/adamxrodriguez/nextjs-dashboard
 
 - **Sofle RGB (keyboard firmware & tooling)** — customization, reproducible builds  
   Notes on low-level configs, ergonomics, and build repeatability.  
