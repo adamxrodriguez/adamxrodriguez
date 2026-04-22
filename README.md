@@ -66,3 +66,64 @@ I care about clean systems, fast feedback loops, and work that actually moves th
 
 > Don’t wait to feel ready — start.
 
+
+
+
+Development Standards Meeting Notes
+April 22, 2026 | ECMS Team
+
+Purpose
+Informal discussion to audit existing dev standards — identify gaps, outdated docs, and how to better organize/manage going forward.
+
+Key Discussion Points
+Standards Categorization
+Tye proposed splitting standards into two distinct tracks:
+	•	Coding Standards — enforced at the code level (no warnings/errors, clean code, logging, etc.) — governed by Joe and Tye
+	•	Support/Operational Standards — apply to QA, engineers, and ops regardless of role (program grouping, error paths, alerting, purge configs) — governed by Sandy’s team
+Identified Gaps
+	1.	Program grouping — every deployed program must belong to a program group; not formally documented anywhere
+	2.	Error path naming/format — specific format standard exists for alerting purposes, not widely known
+	3.	Purge and alert configuration — often missed at project setup; should be considered upfront
+	4.	Logging standards — recurring pain point:
+	•	No clear consensus on error vs. warning vs. info levels
+	•	Error messages should stand alone with enough context (content ID, image ID, what was happening)
+	•	Avoid noisy info logs on idle program cycles
+	•	Large batch jobs should log progress milestones; coordinate with ops on frequency
+	•	Debug/trace log calls should be in place so QA can drop log levels in stage
+	5.	Python standards — needed as Python usage is growing; suggestion to standardize linter tooling (Windsurf or similar) as part of feature completion workflow
+	6.	Legacy ASP.NET — branching strategy may not apply; needs clarification
+	7.	Two separate branching strategy docs — UI (with stage branch, tied to Jenkins) vs. backend; team not universally aware both exist
+Documentation & Discovery
+	•	Existing standards docs are scattered, inconsistently tagged in Content Central, and not centrally indexed
+	•	Suggestions raised:
+	•	GitLab repo for standards — enables change alerts/subscriptions (well-received)
+	•	AI/admin site documentation tab — centralized hub with links
+	•	Better Content Central tagging — fix discoverability at the source
+	•	Admin Central dashboard — link standards alongside operational tools
+	•	General agreement: a central index or hub is needed, whether it points to Content Central, GitLab, or both
+
+Decisions / Direction
+	•	Tye will rename the existing IM group and use it for ongoing standards discussion
+	•	Coding standards ownership: Joe + Tye
+	•	Support/operational standards ownership: Sandy’s team (with Joe/Tye support)
+	•	Logging identified as the first priority gap to address
+
+Action Items
+
+
+
+|Item                                                    |Owner                            |
+|--------------------------------------------------------|---------------------------------|
+|Collect full list of gaps                               |Kourtney (KG) — lead and maintain|
+|Review/share notes from today                           |Tye → follow up with Adam        |
+|Form small working groups (3 people, cross-functional)  |Tye/KG to organize               |
+|First working group focus: **logging standards**        |TBD — 1-2 engineers + 1-2 ops    |
+|Evaluate GitLab repo as standards home                  |Team to consider                 |
+|Review branching strategy docs for accuracy/completeness|TBD                              |
+|Define Python linting/standards approach                |TBD                              |
+
+Next Steps
+Working groups will develop solutions independently, then present back to the full team for feedback. KG coordinates scheduling of those sessions.​​​​​​​​​​​​​​​​
+
+
+
