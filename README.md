@@ -13,6 +13,10 @@ I care about clean systems, fast feedback loops, and work that actually moves th
 
 ## Selected Work
 
+- **ARNEXOR (Next.js/TypeScript)** — autonomous agent platform for solo founders  
+  Trustworthy supervised autonomy. Decision-queue product surface — batch approvals, telemetry, policy controls.  
+  Repo → https://github.com/adamxrodriguez/arnexor-platform
+
 - **Metamorphosis (Kafka Observability)** — monitoring  
   Dashboards & tooling that reduce triage time and make message flow visible at a glance.  
   Org repo → https://github.com/oslabs-beta/Metamorphosis
